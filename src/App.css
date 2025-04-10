@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f8f8f8;
+}
+
+.App {
+  text-align: center;
+}
+
+.hero {
+  background: url("/golf-banner.jpg") center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero button {
+  background-color: green;
+  color: white;
+  padding: 1em 2em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popular-courses {
+  padding: 2em;
+  background-color: white;
+}
+
+.popular-courses ul {
+  list-style: none;
+  padding: 0;
+}
+
+.popular-courses li {
+  padding: 0.5em 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+}
